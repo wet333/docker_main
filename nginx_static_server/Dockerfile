@@ -10,4 +10,4 @@ RUN apt install -y nginx
 
 ADD ./index.html /var/www/html/index.html
 
-ENTRYPOINT [ "service nginx start" ]
+CMD "service nginx start"
