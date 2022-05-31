@@ -9,5 +9,3 @@ RUN apt install -y curl
 RUN apt install -y nginx
 
 ADD ./index.html /var/www/html/index.html
-
-CMD "service nginx start"
